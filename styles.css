@@ -1,0 +1,28 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+nav{
+    display: inline;
+}
+
+#surprise{
+    display: none;
+    color: aquamarine;
+}
+h1.styl {
+			
+    color: rgb(19, 94, 94);
+    
+    border: 20px inset  rgb(49, 17, 128);
+    border-radius: 12px;
+
+}
+.here{
+    margin-left: 200px;
+}
+.here:hover+#surprise
+{display: block;color: aquamarine;}
+
+#butn {
+    border: 5px outset red;
+}
